@@ -74,7 +74,4 @@ console.log("Mining Block 2 ....");
 myCoin.addBlock(new Block(2,"18/06/2024","this is block 2"));
 //console.log(JSON.stringify(myCoin, null, 4));
 
-myCoin.chain[1].data={amount:100};
-myCoin.chain[1].hash=myCoin.chain[1].calculateHash();
-console.log("is Chain Valid?"+ myCoin.isChainValid() );
-//console.log(JSON.stringify(myCoin, null, 4));
+console.log(JSON.stringify(myCoin, null, 4));
